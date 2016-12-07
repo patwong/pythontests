@@ -3,7 +3,16 @@ import json
 json1_file = open('bbjson3.json')
 json1_str = json1_file.read()
 
+#json.loads turns the json into a list of dictionaries
 json1_data = json.loads(json1_str) #gets the whole dictionary
+
+
+#neatly outputs the list
+#abd = json.dumps(json1_data, indent=4, separators=(',', ': '))
+#outfile = open('outtest2.txt', 'w')
+#outfile.write(abd)
+
+
 gs = json1_data[0] #gets giancarlo stanton
 
 
@@ -11,17 +20,12 @@ gs = json1_data[0] #gets giancarlo stanton
 print gs['name'] #prints out 'Giancarlo Stanton'
 print gs['brl_pa']
 
-rp2 = json1_data[2] #tyler flowers?
-rp2name = rp2['name']
-season = rp2['season'] #season is treated as an int
-rp2mhs = rp2['max_hit_speed']
+#rp2 = json1_data[2] #tyler flowers? yes
 
-print rp2['name']
-print "in " + str(rp2['season']) + ", " + rp2name + " had max hit speed of " + rp2mhs
-
-
+pdict = {}
 for player in json1_data:
     pname = player['name']
+    pdict[pname] = player
     pseason = str(player['season']) #season is treated as an int
     pmhs = player['max_hit_speed']
     print "in " + pseason + ", " + pname + " had max hit speed of " + pmhs
