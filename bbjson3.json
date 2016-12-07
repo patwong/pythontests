@@ -1,0 +1,5 @@
+[ {"name":"Giancarlo Stanton","attempts":248,"max_hit_speed":"123.9","min_hit_speed":"41.1","avg_hit_speed":"95.1","fbld":"97.4","gb":"94.6","max_distance":"504","avg_distance":"234","avg_hr_distance":"422","player_id":"519317","player_type":"batter","season":2016,"batter":"519317","barrels":43,"brl_percent":"17.3%","brl_pa":"9.1%","rowId":"row_519317","freeagent":"false"},
+
+{"name":"Jonathan Schoop","attempts":414,"max_hit_speed":"121.6","min_hit_speed":"25.5","avg_hit_speed":"87.8","fbld":"93.1","gb":"84.6","max_distance":"458","avg_distance":"203","avg_hr_distance":"410","player_id":"570731","player_type":"batter","season":2016,"batter":"570731","barrels":31,"brl_percent":"7.5%","brl_pa":"4.8%","rowId":"row_570731","freeagent":"false"},
+
+{"name":"Tyler Flowers","attempts":176,"max_hit_speed":"118.5","min_hit_speed":"57.8","avg_hit_speed":"94.0","fbld":"95.4","gb":"93.5","max_distance":"451","avg_distance":"225","avg_hr_distance":"422","player_id":"452095","player_type":"batter","season":2016,"batter":"452095","barrels":23,"brl_percent":"13.1%","brl_pa":"7.1%","rowId":"row_452095","freeagent":"false"} ]
