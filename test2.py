@@ -19,6 +19,14 @@ rp2mhs = rp2['max_hit_speed']
 print rp2['name']
 print "in " + str(rp2['season']) + ", " + rp2name + " had max hit speed of " + rp2mhs
 
+
+for player in json1_data:
+    pname = player['name']
+    pseason = str(player['season']) #season is treated as an int
+    pmhs = player['max_hit_speed']
+    print "in " + pseason + ", " + pname + " had max hit speed of " + pmhs
+
+
 #ccsmhs = float(rp1mhs) * 2 #cast to float, mult by 2
 #print str(ccsmhs)
 
