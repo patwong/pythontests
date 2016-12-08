@@ -4,6 +4,17 @@ import json
 # global dictionary
 pdict = {}
 
+# merging list of free agents with dictionary
+# if player is a free agent, change their free agent status to True
+def merge_fas():
+    falist = open('shortfalist.txt')
+    for fa in falist:
+        f_a = fa.strip('\r\n')
+        if f_a in pdict:
+            player = pdict[f_a]
+            player['freeagent'] = True      # this actually changes the value of the player in pdict
+# end merge_fas
+
 # opens the json file and creates a dictionary
 def parse_and_dict():
     # just change the filename to read the whole json
@@ -13,8 +24,6 @@ def parse_and_dict():
 
     # json.loads turns the json into a list of dictionaries
     json1_data = json.loads(json1_str)  # gets the whole dictionary
-
-
 
     for player in json1_data:
         pname = player['name']
@@ -52,11 +61,25 @@ def parse_and_dict():
 def main():
     # dictionary is a lot faster than list
     # will be useful when updating a player's FA stats
-    # dictionary AO(1) speed to update
-    # list is O(n) update
+    # dictionary AO(1) speed to update, access
+    # list is O(n) update, access
     parse_and_dict()
+
+    # to check if item is in dict, do this: ITEM in dict_name
     gs1 = pdict['Giancarlo Stanton']
     print str(gs1['name']) + " had an average speed of " + str(gs1['gb']) + " mph on his groundballs"
+    # merge_fas()
+    # for key in pdict:
+    #    player = pdict[key]
+    #    if player['freeagent']:
+    #        print player['name'] + " is a free agent"
+    #    else:
+    #        print player['name'] + " is not a free agent"
+    merge_fas()
+    for key in pdict:
+        player = pdict[key]
+        if player['freeagent']:
+            print player['name'] + " is a free agent"
 
 # end main
 

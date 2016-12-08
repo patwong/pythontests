@@ -2,4 +2,49 @@
 
 {"name":"Jonathan Schoop","attempts":414,"max_hit_speed":"121.6","min_hit_speed":"25.5","avg_hit_speed":"87.8","fbld":"93.1","gb":"84.6","max_distance":"458","avg_distance":"203","avg_hr_distance":"410","player_id":"570731","player_type":"batter","season":2016,"batter":"570731","barrels":31,"brl_percent":"7.5%","brl_pa":"4.8%","rowId":"row_570731","freeagent":"false"},
 
-{"name":"Tyler Flowers","attempts":176,"max_hit_speed":"118.5","min_hit_speed":"57.8","avg_hit_speed":"94.0","fbld":"95.4","gb":"93.5","max_distance":"451","avg_distance":"225","avg_hr_distance":"422","player_id":"452095","player_type":"batter","season":2016,"batter":"452095","barrels":23,"brl_percent":"13.1%","brl_pa":"7.1%","rowId":"row_452095","freeagent":"false"} ]
+{"name":"Tyler Flowers","attempts":176,"max_hit_speed":"118.5","min_hit_speed":"57.8","avg_hit_speed":"94.0","fbld":"95.4","gb":"93.5","max_distance":"451","avg_distance":"225","avg_hr_distance":"422","player_id":"452095","player_type":"batter","season":2016,"batter":"452095","barrels":23,"brl_percent":"13.1%","brl_pa":"7.1%","rowId":"row_452095","freeagent":"false"},
+
+
+    {
+        "attempts": 242,
+        "avg_distance": "250",
+        "avg_hit_speed": "89.2",
+        "avg_hr_distance": "400",
+        "barrels": 35,
+        "batter": "461235",
+        "brl_pa": "7.5%",
+        "brl_percent": "14.5%",
+        "fbld": "93.5",
+        "freeagent": "false",
+        "gb": "81.9",
+        "max_distance": "454",
+        "max_hit_speed": "113.5",
+        "min_hit_speed": "41.5",
+        "name": "Brandon Moss",
+        "player_id": "461235",
+        "player_type": "batter",
+        "rowId": "row_461235",
+        "season": 2016
+    },
+
+{
+        "attempts": 423,
+        "avg_distance": "227",
+        "avg_hit_speed": "91.5",
+        "avg_hr_distance": "409",
+        "barrels": 52,
+        "batter": "429665",
+        "brl_pa": "7.4%",
+        "brl_percent": "12.3%",
+        "fbld": "95.7",
+        "freeagent": "false",
+        "gb": "86.7",
+        "max_distance": "471",
+        "max_hit_speed": "112.8",
+        "min_hit_speed": "13.7",
+        "name": "Edwin Encarnacion",
+        "player_id": "429665",
+        "player_type": "batter",
+        "rowId": "row_429665",
+        "season": 2016
+    }	]
