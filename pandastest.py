@@ -19,7 +19,7 @@ dates = pd.date_range('20161130', periods=6)
 # list can be initialized like:
 #   a = list([1,2,...n]), b = [1, 2, ..., n]
 df0 = pd.DataFrame(np.random.randn(6, 4), index=('hi','bye','why','rye','sty','shy'), columns=list('1234'))
-df1 = pd.DataFrame(np.random.rand(6, 4), index=dates, columns=('a','b','b','c'))
+df1 = pd.DataFrame(np.random.rand(6, 4), index=dates, columns=('a','b','c','d'))
 #print df1
 
 df2 = pd.DataFrame({ 'A' : 1.,
@@ -29,4 +29,5 @@ df2 = pd.DataFrame({ 'A' : 1.,
                          'E' : pd.Categorical(["test","train","test","train"]),
                          'F' : 'foo' })
 print df2
+
 #end code

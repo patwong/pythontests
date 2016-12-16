@@ -1,0 +1,3 @@
+class zclass:
+    pdict = {}
+    statdict = {}
